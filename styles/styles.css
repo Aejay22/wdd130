@@ -24,3 +24,35 @@ img {
 p {
     padding: 10px;
 }
+
+main {
+    max-width: 1000px;
+}
+
+aside {
+    width: 300px;
+    margin: 10px;
+    border: 2.5px solid green;
+    padding: 10px;
+    background-color: rgb(86, 63, 63);
+    color: rgb(0, 0, 0);
+}
+
+aside img {
+    width: 200px;
+    height: auto;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+p {
+    padding: 0;
+}
+
+footer {
+    margin-top: 2px;
+    border-top: 2px dashed green;
+    text-align: center;
+}

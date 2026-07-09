@@ -17,7 +17,7 @@ div {
 
 span {
     color: navy;
-    background-color: lightblue;
+    =background-color: lightblue;
 }
 
 code {
