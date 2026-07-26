@@ -21,14 +21,14 @@ div {
     height: 200px;
 }
 
-.flex {
+.one-flex {
     background-color: #aba;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.grid {
+.one-grid {
     background-color: #abb;
     display: grid;
     place-items: center;
@@ -51,7 +51,8 @@ div {
 }
 
 .columns-3 {
-    grid-column: span 3;}
+    grid-column: span 3;
+}
 
 .three {
     margin: .25rem;
