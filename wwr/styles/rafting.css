@@ -22,7 +22,7 @@ header,
 main,
 footer {
     width: 840px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 h1,
@@ -32,7 +32,6 @@ h2 {
 }
 
 nav,
-p,
 section,
 article {
     margin: 16px;
@@ -67,7 +66,7 @@ h1 {
 
 .hero article {
     position: absolute;
-    bottom: 350px;
+    top: 380px;
     width: 98%;
     padding: 16px;
     margin: 10px;
@@ -82,7 +81,8 @@ h1 {
     width: 125px;
 }
 
-section h2 {
+section h2,
+section p {
     background-color: var(--primary-color);
     text-align: center;
     color: white;
@@ -92,10 +92,72 @@ section h2 {
 
 footer {
     border: 5px solid var(--accent1-color);
-    margin: 15px;
+    margin: 15px auto;
 }
 
 footer nav a img {
     width: 30px;
     height: auto;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    background-color: lightslategray;
+    align-items: center;
+    margin: 10px auto;
+
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    flex: 1 1 auto;
+}
+
+nav ul li a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 700px;
+    text-decoration: none;
+    color: black;
+}
+
+figure {
+    display: grid;
+    justify-content: center;
+    gap: 5px;
+    grid-template-columns: repeat(5, 1fr);
+    background-color: lawngreen;
+}
+
+.hero section figure img {
+    order: 0;
+    width: 100%;
+    height: 150px;
+
+}
+
+.hero section figcaption {
+    order: 1;
+    text-align: center;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 600px 1fr;
+    align-items: center;
+    justify-content: center;
+}
+
+footer p {
+    text-align: center;
+}
+
+.socialmedia {
+    display: flex;
+    justify-content: flex-end;
 }
