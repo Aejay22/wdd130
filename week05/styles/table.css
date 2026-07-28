@@ -1,0 +1,24 @@
+table {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: 1px solid balck;
+    font-size: 0.8rem;
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-radius: 3px;
+}
+
+th {
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    margin: 0;
+    text-align: center;
+    padding: 8px 12px;
+}
+
+td {
+    border: 1px solid black;
+    margin: 0;
+    text-align: center;
+    padding: 8px 12px;
+}
