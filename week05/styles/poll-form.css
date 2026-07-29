@@ -1,0 +1,118 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.2rem;
+    color: rgb(43, 39, 39);
+    background-color: rgb(193, 201, 209);
+
+}
+
+header {
+    font-weight: 700;
+    font-size: 20px;
+    color: blue;
+    margin: 0 auto;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 20px;
+    color: rgb(33, 33, 128);
+    text-align: center;
+
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 5px;
+    border: 1.5px solid rgb(144, 135, 135);
+    border-radius: 0.5rem;
+}
+
+fieldset {
+    display: grid;
+    gap: 0.5rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid black;
+}
+
+legend {
+    padding: 0.5rem;
+    color: purple;
+    font-size: 1.3rem;
+    font-family: inherit;
+    margin-left: -1px;
+}
+
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+input,
+select,
+textarea {
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+
+label {
+    text-align: right;
+    padding-right: 1rem;
+}
+
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+
+button {
+    margin: 1rem;
+    background-color: yellow;
+    color: black;
+    border: none;
+    border-radius: .5rem;
+    padding: .5rem;
+    font-size: 1.2rem;
+    display: block;
+    margin: 1rem auto;
+}
+
+button:hover {
+    background-color: orange;
+}
+
+footer {
+    margin: 1rem auto 0;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #f10909;
+    border-top: 1px solid #ccc;
+}
+
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 2fr 2fr;
+    margin: 0.5rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}

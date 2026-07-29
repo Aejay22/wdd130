@@ -1,0 +1,65 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 500px;
+    margin: 0 auto;
+}
+
+label,
+input,
+textarea,
+select,
+button {
+    display: block;
+    width: 90%;
+    margin: 0.75rem;
+    padding: .75rem
+}
+
+form {
+    background-color: aliceblue;
+    border: 1px solid rgb(95, 89, 89);
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+button {
+    background-color: navy;
+    color: white;
+    border-radius: 10px;
+}
+
+button:hover {
+    background-color: blue;
+}
+
+p {
+    text-align: center;
+}
+
+footer {
+    margin: 1rem;
+}
+
+form p {
+    background-color: rgb(28, 21, 21);
+    color: white;
+    margin: 0.75rem;
+    width: 60%;
+    padding: 0.75rem;
+    margin-left: 4rem;
+}
+
+span,
+h1 {
+    color: navy;
+}
+
+span {
+    font-weight: 1000;
+    font-size: medium;
+}
