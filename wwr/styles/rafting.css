@@ -242,8 +242,8 @@ iframe {
     border: 0;
 }
 
-.top h1 {
+.high {
     position: static;
-    background-color: transparent;
+    background-color: var(--primary-color);
     color: white;
 }
