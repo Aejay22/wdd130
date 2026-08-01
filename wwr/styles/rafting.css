@@ -237,3 +237,13 @@ textarea,
 input {
     padding: .75rem;
 }
+
+iframe {
+    border: 0;
+}
+
+.top h1 {
+    position: static;
+    background-color: transparent;
+    color: white;
+}
