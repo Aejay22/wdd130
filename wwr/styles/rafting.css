@@ -242,8 +242,10 @@ iframe {
     border: 0;
 }
 
-.high {
+.high,
+main h2 {
     position: static;
     background-color: var(--primary-color);
     color: white;
+    text-align: center;
 }
