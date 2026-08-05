@@ -48,6 +48,7 @@ article {
 
 .hero {
     position: relative;
+    min-height: 610px;
 }
 
 .hero img {
@@ -304,15 +305,19 @@ main h2 {
     top: 10rem;
 }
 
-legend {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 1rem;
-    margin: 1em;
-    background-color: pink;
+.ati em {
+    display: block;
 }
 
-h3 {
-    order: -1;
+.ati {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: pink;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+.ati h3 {
     text-align: center;
+    order: -1;
 }
