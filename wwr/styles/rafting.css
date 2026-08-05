@@ -249,3 +249,71 @@ main h2 {
     color: white;
     text-align: center;
 }
+
+.static {
+    position: static;
+    background-color: transparent;
+}
+
+#enu img {
+    display: absolute;
+    width: 100%;
+}
+
+#enu h2,
+#enu h1 {
+    position: absolute;
+}
+
+#enu h2 {
+    display: block;
+    top: 6rem;
+    background-color: black;
+    opacity: 0.7;
+    padding: 15px;
+    left: 27%;
+}
+
+.upper img {
+    float: right;
+    width: 30px;
+    height: auto;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 1rem;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 1rem;
+}
+
+.btn:hover {
+    background-color: orangered;
+}
+
+.somepart {
+    position: absolute;
+    display: block;
+    text-align: center;
+    border: 5px solid black;
+    color: whitesmoke;
+    bottom: 2rem;
+    left: 15em;
+
+}
+
+legend {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    margin: 1em;
+    background-color: pink;
+}
+
+h3 {
+    order: -1;
+    text-align: center;
+}
