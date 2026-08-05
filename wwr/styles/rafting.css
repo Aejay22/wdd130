@@ -256,7 +256,7 @@ main h2 {
 }
 
 #enu img {
-    display: absolute;
+    position: absolute;
     width: 100%;
 }
 
@@ -300,9 +300,8 @@ main h2 {
     text-align: center;
     border: 5px solid black;
     color: whitesmoke;
-    bottom: 2rem;
     left: 15em;
-
+    top: 10rem;
 }
 
 legend {
