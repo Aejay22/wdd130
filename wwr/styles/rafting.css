@@ -331,7 +331,7 @@ main h2 {
 
 table {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    border: 1px solid balck;
+    border: 1px solid black;
     font-size: 0.8rem;
     border-collapse: collapse;
     margin: 0 auto;
@@ -352,4 +352,8 @@ td {
     margin: 0;
     text-align: center;
     padding: 8px 12px;
+}
+
+.aboutTrip p {
+    order: 2;
 }
